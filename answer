@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            margin-top: 30px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+        form {
+            text-align: left;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        ol {
+            text-align: left;
+            max-width: 600px;
+            margin: auto;
+            padding: 10px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/29983389/pexels-photo-29983389/free-photo-of-colorful-balcony-with-plants-in-istanbul.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Example Image from Pexels" width="100%">
+        
+        <h2>Ordered List</h2>
+        <ol type="I">
+            <li><strong>Step 1:</strong> Introduction</li>
+            <li><strong>Step 2:</strong> Gathering Materials</li>
+            <li><strong>Step 3:</strong> Setting Up</li>
+            <li><strong>Step 4:</strong> Execution</li>
+            <li><strong>Step 5:</strong> Conclusion</li>
+        </ol>
+        
+        <h2>Contacts Table</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Otieno Mwangi</td>
+                <td>123 Moi Avenue, Nairobi</td>
+                <td>+254712345678</td>
+                <td>otieno.mwangi@example.com</td>
+            </tr>
+            <tr>
+                <td>Akinyi Wanjiru</td>
+                <td>456 Kenyatta Road, Mombasa</td>
+                <td>+254798765432</td>
+                <td>akinyi.wanjiru@example.com</td>
+            </tr>
+        </table>
+        
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6">
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+                <option value="tanzania">Tanzania</option>
+                <option value="rwanda">Rwanda</option>
+            </select>
+            
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            
+            <p>Interests:</p>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label>
+            
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
