@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <title>Kenyan HTML5 Practice</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List</h2>
+        <ol type="I">
+            <li>Introduction to HTML</li>
+            <li>Setting up the Development Environment in Kenya</li>
+            <li>Creating the Basic Structure</li>
+            <li>Adding Local Styles and Scripts</li>
+            <li>Publishing Websites in Kenya</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels (Kenyan theme) -->
+    <section>
+        <h2>Sample Image</h2>
+        <img src="https://images.pexels.com/photos/1231077/pexels-photo-1231077.jpeg" alt="Kenya landscape" width="600">
+    </section>
+
+    <!-- Table of Contacts (Kenyan-style) -->
+    <section>
+        <h2>Contact Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Wanjiru Njoroge</td>
+                    <td>1234 Kenyatta Avenue, Nairobi</td>
+                    <td>0712-345678</td>
+                    <td>wanjirun@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jomo Mwangi</td>
+                    <td>5678 Moi Avenue, Kisumu</td>
+                    <td>0721-987654</td>
+                    <td>jomo@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary Muthoni</td>
+                    <td>9102 Westlands, Nairobi</td>
+                    <td>0730-123456</td>
+                    <td>marym@example.com</td>
+                </tr>
+                <tr>
+                    <td>Kevin Kibet</td>
+                    <td>3456 Nyayo Estate, Nairobi</td>
+                    <td>0711-654321</td>
+                    <td>kevin@example.com</td>
+                </tr>
+                <tr>
+                    <td>Grace Otieno</td>
+                    <td>7890 Mombasa Road, Nairobi</td>
+                    <td>0741-987654</td>
+                    <td>graceo@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <!-- Name -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                <br><br>
+
+                <!-- Email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <br><br>
+
+                <!-- Password -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter a password" required>
+
+                <br><br>
+
+                <!-- Date of Birth -->
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <br><br>
+
+                <!-- Gender (Radio Buttons) -->
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+                <br><br>
+
+                <!-- Preferences (Checkboxes) -->
+                <label>Preferences:</label>
+                <input type="checkbox" id="newsletter" name="preferences" value="newsletter">
+                <label for="newsletter">Subscribe to Newsletter</label>
+                <input type="checkbox" id="updates" name="preferences" value="updates">
+                <label for="updates">Receive Updates</label>
+
+                <br><br>
+
+                <!-- Dropdown (Kenya included) -->
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="kenya">Kenya</option>
+                    <option value="uganda">Uganda</option>
+                    <option value="tanzania">Tanzania</option>
+                    <option value="ethiopia">Ethiopia</option>
+                </select>
+
+                <br><br>
+
+                <!-- Submit Button -->
+                <input type="submit" value="Register">
+            </fieldset>
+        </form>
+    </section>
+
+    <!-- Multimedia: Audio and Video -->
+    <section>
+        <h2>Multimedia Elements</h2>
+
+        <!-- Audio -->
+        <h3>Sample Audio</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+        <br><br>
+
+        <!-- Video -->
+        <h3>Sample Video</h3>
+        <video width="600" controls>
+            <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+</body>
+</html>
