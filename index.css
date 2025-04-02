@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f0f8ff; /* Light sky blue background */
+    color: #333;
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    background-color: #ffffff; /* White background for sections */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #2a9d8f; /* Kenyan-inspired teal */
+}
+
+/* Ordered List Styling */
+ol {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+ol li {
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 10px;
+    margin-bottom: 8px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+th {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+td {
+    background-color: #f7f7f7;
+}
+
+tr:nth-child(even) td {
+    background-color: #e9f7f7;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 2px solid #2a9d8f;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9fafc;
+}
+
+legend {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2a9d8f;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #2a9d8f;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #21867a;
+}
+
+/* Audio & Video Controls */
+audio, video {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
